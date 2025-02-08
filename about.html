@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Project Mind Matters</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #c1e6a8, #a8e6b3);
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-right: 15px;
+            transition: transform 0.3s;
+        }
+
+        .logo:hover {
+            transform: rotate(360deg);
+        }
+
+        .site-title {
+            font-size: 2.5em;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            position: relative;
+            transition: all 0.3s;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            color: #000;
+            background: rgba(255,255,255,0.3);
+            border-radius: 20px;
+            transform: translateY(-2px);
+        }
+
+        .about-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 40px;
+        }
+
+        .about-section {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .about-section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 2.2em;
+            margin-bottom: 25px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .history-content {
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+
+        .history-content p {
+            margin-bottom: 20px;
+        }
+
+        .mission-vision-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .mission-vision-box {
+            background: rgba(255,255,255,0.3);
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .mission-vision-box:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.4);
+        }
+
+        .mission-vision-box h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid rgba(0,0,0,0.1);
+            padding-bottom: 10px;
+        }
+
+        .mission-vision-box ul {
+            list-style-type: none;
+        }
+
+        .mission-vision-box li {
+            position: relative;
+            padding: 10px 0 10px 25px;
+            line-height: 1.6;
+        }
+
+        .mission-vision-box li::before {
+            content: "•";
+            color: #4a8f47;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+            top: 8px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .about-container {
+                margin: 20px 10px;
+                padding: 20px;
+            }
+
+            .about-section {
+                padding: 20px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .site-title {
+                font-size: 2em;
+            }
+
+            .mission-vision-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/C:\Users\Lenovo\Pictures\project_mind_matters\logo.png" alt="Project Mind Matters Logo" class="logo">
+            <h1 class="site-title">Project Mind Matters</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="#blog">Blog</a> |
+            <a href="#portfolio">Portfolio</a> |
+            <a href="#team">Our Team</a> |
+            <a href="#testimonials">Testimonials</a> |
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="about-container">
+        <div class="about-section">
+            <h2>Our History</h2>
+            <div class="history-content">
+                <p>Being an overthinker has always been labeled as unhealthy. Although the very birth of this initiative began because of overthinking & over-analyzing every move and expression on individuals. Back in school, Smrithi would observe any small or big reaction of individuals to how a peer, friend or teacher would treat them and how it would affect them, be it positively or negatively.</p>
+                
+                <p>However, mostly the experiences she observed were negative. These negative experiences and responses were carried on for so long that these individuals started carrying those negative thoughts in their heads and as it got heavier, it made them spiral downwards, deeper and deeper.</p>
+                
+                <p>That's when she thought, what if these individuals knew it at that very instance of an act on how to deal and respond to a situation in a healthy manner which would not affect them or the person(s) they were communicating with. Therefore, the birth of 'Mind Matters', where problems are taught to deal with at the very root cause of something that could negatively branch out.</p>
+            </div>
+        </div>
+
+        <div class="mission-vision-grid">
+            <div class="mission-vision-box">
+                <h3>Our Mission</h3>
+                <ul>
+                    <li>To eradicate stigma on mental health by working with key stakeholders.</li>
+                    <li>Developing healthier communities and interpersonal relationships.</li>
+                </ul>
+            </div>
+
+            <div class="mission-vision-box">
+                <h3>Our Vision</h3>
+                <ul>
+                    <li>To provide Psycho-education curated according to an individual's background.</li>
+                    <li>Establishing an organization which strives for the importance and awareness of mental health.</li>
+                    <li>Building platforms to collaborate with subject matter experts.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
